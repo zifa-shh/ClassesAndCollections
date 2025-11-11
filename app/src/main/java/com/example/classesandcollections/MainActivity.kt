@@ -4,9 +4,16 @@ package com.example.classesandcollections
 data class Event(
     val title: String,
     val description: String? = null,
-    val dayPart: String,
+    val dayPart: DayPart,
     val durationInMinutes: Int,
 )
+
+// Task 2
+enum class DayPart {
+    MORNING,
+    AFTERNOON,
+    EVENING,
+}
 
 fun main(){
 
