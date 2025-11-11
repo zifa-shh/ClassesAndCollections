@@ -41,6 +41,11 @@ fun task5(events: List<Event>) {
     }
 }
 
+// Task 6
+fun task6(events: List<Event>) {
+    println("Last event of the day: ${events.last().title}")
+}
+
 fun main(){
 
 }
